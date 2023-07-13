@@ -6,7 +6,7 @@ import 'package:http/http.dart' as http;
 
 class ApiService{
 
-  static String _baseUrl= "https://<url of the deployed API>/notes";
+  static String _baseUrl= "https://strange-button-dove.cyclic.app/notes";
 
   static Future<void> addNote(Note note) async{
     Uri requestUri=Uri.parse(_baseUrl + "/add");
